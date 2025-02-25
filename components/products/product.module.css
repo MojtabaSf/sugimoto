@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 1294px;
+  padding: 32px 18px;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .cardsContainer {
+    padding: 32px 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cardsContainer {
+    padding: 32px 16px;
+  }
+}

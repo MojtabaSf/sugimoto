@@ -1,0 +1,71 @@
+.container {
+  width: 24%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  margin: 0 0.5% 12px;
+  border: 1px solid #eaeaea;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.container:hover {
+  width: 24%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 6px;
+  margin: 0 0.5% 12px 0.5%;
+  border: 1px solid #eaeaea;
+  padding: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1),
+    0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+.container div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 24px; */
+}
+.container p {
+  font-family: "YekanBakhRegular";
+  font-size: 18px;
+}
+.container span {
+  font-family: "YekanBakhRegular";
+  font-size: 18px;
+}
+.container img {
+  width: 90%;
+  height: 60%;
+}
+
+@media screen and (max-width: 950px) {
+  .container {
+    width: 32%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    width: 48%;
+    margin: 0 1% 12px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+    margin: 0 0 12px;
+  }
+  .container img {
+    width: 50%;
+  }
+}

@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.detailsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.eachRow {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.eachRow span {
+  font-family: "YekanBakhRegular";
+  font-size: 16px;
+  margin-left: 8px;
+}
+.eachRow p {
+  font-family: "YekanBakhLight";
+  font-size: 16px;
+}
+
+.lastRow {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lastRow span {
+  font-family: "YekanBakhRegular";
+  font-size: 16px;
+  margin-left: 8px;
+}
+.lastRow p {
+  font-family: "YekanBakhLight";
+  font-size: 16px;
+}
